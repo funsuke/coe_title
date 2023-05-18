@@ -48,7 +48,7 @@ export class SceneTitle extends Scene<TitleCommand, TitleActionData> {
 			size: 24,
 		});
 		// ラベル
-		// ※恐らくこの時点でg.SceneがonLoadイベントがfireされてないので、onLoadedでappend等する
+		// ※恐らくこの時点でg.SceneのonLoadイベントがfireされてないので、onLoadedでappend等する
 		this.lblPlayerNum = new g.Label({
 			scene: this,
 			font: this.font,
