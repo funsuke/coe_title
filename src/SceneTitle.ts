@@ -2,8 +2,8 @@ import {
 	Scene, SceneParameters, initialize
 } from "@akashic-extension/coe";
 import {
-	TitleActionData, TitleCommand, TitleController, titleActionType, titleCommandType
-} from "./coe/TitleController";
+	TitleActionData, TitleCommand, ControllerTitle, titleActionType, titleCommandType
+} from "./coe/ControllerTitle";
 
 export interface TitleSceneParameter extends SceneParameters<TitleCommand, TitleActionData> {
 	//
@@ -29,7 +29,7 @@ export class SceneTitle extends Scene<TitleCommand, TitleActionData> {
 		// 初期化
 		initialize({ game, args: param });
 		// コントローラ
-		const controller = new TitleController();
+		const controller = new ControllerTitle();
 		// -----------------------------
 		// (COE)Scene
 		// -----------------------------

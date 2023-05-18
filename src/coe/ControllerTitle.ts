@@ -68,7 +68,7 @@ export interface ChangeGamblerCommand {
 /**
  * タイトル用 Controller
  */
-export class TitleController extends COEController<TitleCommand, TitleActionData> {
+export class ControllerTitle extends COEController<TitleCommand, TitleActionData> {
 	private playerNum: number;
 	private gamblerNum: number;
 	/**

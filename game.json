@@ -9,11 +9,6 @@
 			"path": "script/main.js",
 			"global": true
 		},
-		"TitleController": {
-			"type": "script",
-			"path": "script/coe/TitleController.js",
-			"global": true
-		},
 		"SceneTitle": {
 			"type": "script",
 			"path": "script/SceneTitle.js",
@@ -30,6 +25,11 @@
 			"path": "image/title.png",
 			"width": 1280,
 			"height": 720
+		},
+		"ControllerTitle": {
+			"type": "script",
+			"path": "script/coe/ControllerTitle.js",
+			"global": true
 		}
 	},
 	"moduleMainScripts": {
